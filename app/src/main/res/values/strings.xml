@@ -432,6 +432,14 @@
     <string name="notify_node_disconnected">Some device(s) went offline. Tap to view.</string>
     <string name="notify_node_alert">Alert received from a device. Tap to view.</string>
 
+    <string name="googleassitantconfig">
+        Open the Google Home app on your phone.
+        Tap on "+" -> Set up Device.
+Select the "Works with Google" option meant for devices already set up.
+Search for ESP RainMaker and sign in using your RainMaker credentials.
+Once the Account linking is successful, your RainMaker devices will show up and you can start using them.
+    </string>
+
     <string-array name="days">
         <item>Sun</item>
         <item>Sat</item>

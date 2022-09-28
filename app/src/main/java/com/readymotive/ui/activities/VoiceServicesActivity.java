@@ -23,6 +23,7 @@ import android.widget.RelativeLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.readymotive.homeautomation.AlexaAssistantConfigActivity;
 import com.readymotive.homeautomation.BuildConfig;
 
 import com.google.android.material.appbar.MaterialToolbar;
@@ -80,9 +81,11 @@ public class VoiceServicesActivity extends AppCompatActivity {
                 Intent intent = new Intent(VoiceServicesActivity.this, AlexaAppLinkingActivity.class);
                 startActivity(intent);
             } else {
-                String url = "https://rainmaker.espressif.com/docs/3rd-party.html#enabling-alexa";
-                Intent openURL = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                startActivity(openURL);
+//                String url = "https://rainmaker.espressif.com/docs/3rd-party.html#enabling-alexa";
+//                Intent openURL = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+//                startActivity(openURL);
+                Intent intent = new Intent(VoiceServicesActivity.this, AlexaAssistantConfigActivity.class);
+                startActivity(intent);
             }
         }
     };
@@ -91,9 +94,11 @@ public class VoiceServicesActivity extends AppCompatActivity {
 
         @Override
         public void onClick(View v) {
-            String url = "https://rainmaker.espressif.com/docs/3rd-party.html#enabling-google-voice-assistant-gva";
-            Intent openURL = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-            startActivity(openURL);
+//            String url = "https://rainmaker.espressif.com/docs/3rd-party.html#enabling-google-voice-assistant-gva";
+//            Intent openURL = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+//            startActivity(openURL);
+            Intent intent = new Intent(VoiceServicesActivity.this,GoogleAssitantConfigActivity.class);
+            startActivity(intent);
         }
     };
 }

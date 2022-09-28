@@ -38,19 +38,23 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-
+        <activity
+            android:name=".AlexaAssistantConfigActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.readymotive.ui.activities.GoogleAssitantConfigActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.readymotive.ui.activities.SplashActivity"
             android:theme="@android:style/Theme.NoDisplay">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
         <activity
             android:name="com.readymotive.ui.activities.MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
@@ -58,15 +62,13 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustPan">
-
             <intent-filter android:autoVerify="true">
-
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <!--rainmaker://com.espressif.rainmaker/success-->
+                <!-- rainmaker://com.espressif.rainmaker/success -->
                 <data
                     android:host="com.readymotive.homeautomation"
                     android:path="/success"
@@ -132,7 +134,6 @@
             android:label="@string/title_activity_node_details"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name="com.readymotive.ui.user_module.SignUpConfirmActivity"
             android:label="@string/title_activity_sign_up_confirm"
@@ -204,7 +205,6 @@
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
-
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
@@ -216,7 +216,6 @@
                     android:scheme="https" />
             </intent-filter>
         </activity>
-
         <activity
             android:name="com.readymotive.ui.activities.VoiceServicesActivity"
             android:label="@string/title_activity_voice_services"
@@ -245,7 +244,6 @@
             android:windowSoftInputMode="adjustPan" />
 
         <receiver android:name="com.readymotive.NodeSharingActionReceiver" />
-
     </application>
 
 </manifest>
