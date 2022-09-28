@@ -92,7 +92,7 @@
             android:padding="@dimen/margin_16"
             android:visibility="gone">
 
-            <com.espressif.ui.widgets.EspDropDown
+            <com.readymotive.ui.widgets.EspDropDown
                 android:id="@+id/dropdown_time_zone"
                 style="@style/Widget.AppCompat.DropDownItem.Spinner"
                 android:layout_width="match_parent"

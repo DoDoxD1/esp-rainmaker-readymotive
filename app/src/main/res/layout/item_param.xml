@@ -140,7 +140,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <com.espressif.ui.widgets.PaletteBar
+                <com.readymotive.ui.widgets.PaletteBar
                     android:id="@+id/rl_palette"
                     android:layout_width="match_parent"
                     android:layout_height="25pt"
@@ -386,7 +386,7 @@
 
         </LinearLayout>
 
-        <com.espressif.ui.widgets.EspDropDown
+        <com.readymotive.ui.widgets.EspDropDown
             android:id="@+id/card_spinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

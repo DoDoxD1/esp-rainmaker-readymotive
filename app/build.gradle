@@ -41,7 +41,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "com.espressif.rainmaker"
+        applicationId "com.readymotive.homeautomation"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 64

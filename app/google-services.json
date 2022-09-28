@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:847141165224:android:631c1ad4f87e52e8264a9d",
         "android_client_info": {
-          "package_name": "com.espressif.rainmaker"
+          "package_name": "com.readymotive.homeautomation"
         }
       },
       "oauth_client": [

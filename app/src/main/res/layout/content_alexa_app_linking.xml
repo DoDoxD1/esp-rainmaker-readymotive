@@ -30,7 +30,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <com.espressif.ui.widgets.AvsEmberRegularText
+            <com.readymotive.ui.widgets.AvsEmberRegularText
                 android:id="@+id/tv_alexa_link_instruction"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <com.espressif.ui.widgets.AvsEmberBoldText
+            <com.readymotive.ui.widgets.AvsEmberBoldText
                 android:id="@+id/tv_link_alexa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/iv_alexa" />
 
-            <com.espressif.ui.widgets.AvsEmberRegularText
+            <com.readymotive.ui.widgets.AvsEmberRegularText
                 android:id="@+id/tv_link_alexa_str"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -90,7 +90,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_link_alexa" />
 
-            <com.espressif.ui.widgets.BookerlyRegularText
+            <com.readymotive.ui.widgets.BookerlyRegularText
                 android:id="@+id/tv_alexa_str_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -103,7 +103,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_link_alexa_str" />
 
-            <com.espressif.ui.widgets.BookerlyRegularText
+            <com.readymotive.ui.widgets.BookerlyRegularText
                 android:id="@+id/tv_alexa_str_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -115,7 +115,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_alexa_str_1" />
 
-            <com.espressif.ui.widgets.BookerlyRegularText
+            <com.readymotive.ui.widgets.BookerlyRegularText
                 android:id="@+id/tv_alexa_str_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

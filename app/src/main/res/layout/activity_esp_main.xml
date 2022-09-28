@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#a9a9a9"
     android:fitsSystemWindows="true"
-    tools:context="com.espressif.ui.activities.EspMainActivity">
+    tools:context="com.readymotive.ui.activities.EspMainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"

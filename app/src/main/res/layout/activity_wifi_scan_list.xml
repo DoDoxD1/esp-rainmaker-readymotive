@@ -50,7 +50,7 @@
                         android:layout_height="wrap_content"
                         app:layout_constraintBottom_toBottomOf="parent" />
 
-                    <com.espressif.ui.widgets.EspDropDown
+                    <com.readymotive.ui.widgets.EspDropDown
                         android:id="@+id/spinner_networks"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

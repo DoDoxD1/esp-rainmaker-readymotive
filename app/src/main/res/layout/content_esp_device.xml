@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.espressif.ui.activities.EspDeviceActivity"
+    tools:context="com.readymotive.ui.activities.EspDeviceActivity"
     tools:showIn="@layout/activity_esp_device">
 
     <androidx.core.widget.ContentLoadingProgressBar
